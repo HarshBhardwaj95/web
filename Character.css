@@ -1,0 +1,88 @@
+.character{
+    width: 1500px;
+    background-color: gray;
+
+}
+.character .title h1{
+    width: 1130px;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+}
+.character .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.character .box .cards{
+    width: 330px;
+    height: 550px;
+    padding: 20px;
+    margin: 15px;
+    background: #292929;
+    text-align: center;
+    box-shadow: 2px 0 20px rgba(0,0,4);
+    border-radius: 20px;
+}
+.character .box .cards:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.character .box  .cards img{
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+.character .box .cards img:hover{
+    transform: scale(1.1);
+}
+h2{
+    color: white;
+}
+p{
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    margin: 7px;
+    padding: 7px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+    
+}
+ ul{
+    list-style: none;
+    width: 95%;
+    text-align: right;
+    padding-right: 0px;
+    font-size: 15px;
+    list-style: none;
+
+   
+   
+}
+div{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+ ul li a{
+  text-decoration: none;
+  margin-bottom: 100px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+
+ }
+ img{
+    width: 200px;
+    margin-right: 650px;
+
+ }
